@@ -1,0 +1,40 @@
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 4px solid #53A69C;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+  }
+  
+  .boton {
+    margin-bottom: 10px; /* Ajusta el espacio entre los botones según tus necesidades */
+    border-radius: 25px;
+    border: 4px solid #53A69C;
+    width: 248px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    font-family: sans-serif,'Times New Roman';
+  }
+  
+  .boton:hover {
+    background-color: #53A69C; /* Change background color on hover */
+    color: #1d1b1c; /* Change text color on hover */
+  }
+  
+  p {
+    color: blanchedalmond;
+    font-family: 'Times New Roman';
+  }
+  
+  .boton:hover p {
+    color: #1d1b1c;
+  }

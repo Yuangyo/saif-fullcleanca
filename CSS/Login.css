@@ -1,0 +1,32 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container input {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 4px solid #7EE2E2;
+    background: #FFF;
+    width: 226px;
+    height: 70px;
+    flex-shrink: 0;
+    background-color: transparent;
+  }
+
+  input[type="submit"] {
+    width: 169px;
+    height: 50px;
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-top: 10px;
+  }

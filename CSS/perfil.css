@@ -1,0 +1,53 @@
+.barra-divisora {
+    border-top: 4px solid #7EE2E2;
+    margin: 5%;
+    width: 75%;
+    padding-right: 12.5%;
+  }
+
+  body{
+    background: linear-gradient(160deg, #53bbaf 16.03%, #4b2638 70%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif,'Times New Roman';
+  }
+  
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+  }
+
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #53A69C;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    padding: 5px;
+    border-radius: 25px;
+  }
+
+  .REGRESO {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 25px;
+  }
